@@ -1,9 +1,9 @@
 // task 1:  write times10 function
 const times10 = n =>( n * 10);
 
-// task 2: wirte function using caching at global level
-const globalCache = {}
 
+// task 2: write function using caching at global level
+const globalCache = {}
 const memoTimes10 = n => {
   if (n in globalCache) {
     console.log('Task 2: Fetching cached value for n', n)
@@ -44,8 +44,8 @@ console.log('ClosureA', exampleClosureA(2)) // 20
 console.log('ClosureB', exampleClosureB(90)) // 900
 console.log('ClosureB', exampleClosureB(20)) // 200 
 
-// task 4: create fn that varies the result portion to now be variable, using function closures and local scope on cache
 
+// task 4: create fn that varies the result portion to now be variable, using function closures and local scope on cache
 const  memoTimesVaries = v => {
   let cache = {}
   return (n) => {
