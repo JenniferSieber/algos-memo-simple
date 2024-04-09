@@ -1,9 +1,9 @@
 // 4 steps for Recursion-----------------------------
-// Step 1: When do you want loop to stop: base cases?
-// Step 2: Identify recursive cases: work you want to do within the loop. 
-//          *see Step 4
-//Step 3:  Return where appropriated---- you can lose your data.
-//Step 4: Write procedures for each case that brings you closer to base case.
+//   Step 1:   When do you want loop to stop: base cases?
+//   Step 2:   Identify recursive cases: work you want to do within the loop. 
+//             *see Step 4
+//   Step 3:   Return where appropriated---- you can lose your data.
+//   Step 4:   Write procedures for each case that brings you closer to base case.
 
 // Loop Recursively N times:
 const loopNTimes = n => {
