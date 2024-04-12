@@ -1,4 +1,3 @@
-// Linear Search Task: Implement linear search
 // Linear Search  ---- time complexity linear 
 // Search for a value in an array by checking each value in order.
 
