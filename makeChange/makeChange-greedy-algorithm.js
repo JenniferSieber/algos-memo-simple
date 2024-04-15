@@ -1,5 +1,5 @@
-// Greedy Algorithms
-// makeChange, that returns an integer that represents the least number of coins that add up to an amount where the amt is always divisible by 5.
+q// Greedy Algorithms
+// makeChange, that returns an integer that represents the least number of coins that add up to an amount equal to change required.
 
 // coin values 5, 10, 25
 // amount = 40  output 25, 10, 5 === 3 coins
